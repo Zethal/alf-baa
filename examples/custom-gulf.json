@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-gcc-example",
+  "gameType": "bank",
+  "category": { "en": "GCC members", "ar": "دول مجلس التعاون" },
+  "title": {
+    "en": "Name the six member states of the GCC.",
+    "ar": "اذكر الدول الست الأعضاء في مجلس التعاون الخليجي."
+  },
+  "difficulty": "easy",
+  "source": {
+    "kind": "factual",
+    "url": "https://www.gcc-sg.org/en/AboutUs/Pages/default.aspx",
+    "checked": "2026-09-13",
+    "context": {
+      "en": "The six member states of the Gulf Cooperation Council.",
+      "ar": "الدول الست الأعضاء في مجلس التعاون لدول الخليج العربية."
+    }
+  },
+  "answers": [
+    { "id": "kw", "label": { "en": "Kuwait", "ar": "الكويت" } },
+    {
+      "id": "sa",
+      "label": { "en": "Saudi Arabia", "ar": "السعودية" },
+      "aliases": { "en": ["KSA"], "ar": ["المملكة العربية السعودية"] }
+    },
+    { "id": "bh", "label": { "en": "Bahrain", "ar": "البحرين" } },
+    { "id": "qa", "label": { "en": "Qatar", "ar": "قطر" } },
+    { "id": "om", "label": { "en": "Oman", "ar": "عمان" } },
+    {
+      "id": "ae",
+      "label": {
+        "en": "United Arab Emirates",
+        "ar": "الإمارات العربية المتحدة"
+      },
+      "aliases": { "en": ["UAE"], "ar": ["الإمارات"] }
+    }
+  ]
+}

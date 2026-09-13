@@ -1,0 +1,25 @@
+:root {
+  --primary: #d8f77b;
+  --secondary: #7044aa;
+  --accent: #c6adfc;
+  --background: #f6f6f9;
+  --surface: #fff;
+  --text: #171928;
+  --muted: #5e6376;
+  --success: #347342;
+  --warning: #a36219;
+  --danger: #b13a2c;
+  --border: #e1e1e9;
+  --focus: #8a54d1;
+  --radius-sm: 11px;
+  --radius-md: 17px;
+  --radius-lg: 24px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --font: "Manrope Variable", "Noto Sans Arabic Variable", sans-serif;
+  --font-ar: "Noto Sans Arabic Variable", "Manrope Variable", sans-serif;
+}

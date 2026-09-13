@@ -1,0 +1,43 @@
+@media (max-width: 640px) {
+  .game-page .scoreboard {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding-block: 8px;
+    background: var(--background);
+  }
+  .game-page .score-card {
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 12px;
+    gap: 10px;
+  }
+  .game-page .team-name {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  .game-page .score-number {
+    font-size: 1.9rem;
+  }
+  .game-page .score-number small {
+    display: none;
+  }
+  .top-board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .top-board .answer-tile {
+    padding: 11px 10px;
+    gap: 7px;
+  }
+  .top-board .answer-label {
+    font-size: 14px;
+  }
+  .top-board .answer-points {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .top-board .answer-rank {
+    min-width: 16px;
+  }
+}
